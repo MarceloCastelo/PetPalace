@@ -20,8 +20,8 @@
    * colors
    */
 
-  --bright-yellow-crayola: #83c5be;
-  --portland-orange: #55828b;
+  --Azul-Claro: #83c5be;
+  --Azul-Escuro: #55828b;
   --battleship-gray: hsl(0, 0%, 53%);
   --silver-chalice: hsl(0, 0%, 70%);
   --spanish-gray: hsl(0, 0%, 60%);
@@ -40,9 +40,9 @@
    * typography
    */
 
-  --ff-bangers: 'Anton', sans-serif;
-  --ff-carter_one: 'Anton', sans-serif;
-  --ff-nunito_sans: 'Poppins', sans-serif;
+  --ff-Anton: 'Anton', sans-serif;
+  --ff-Anton2: 'Anton', sans-serif;
+  --ff-Poppins: 'Poppins', sans-serif;
 
   --fs-1: 6.5rem;
   --fs-2: 3.2rem;
@@ -130,7 +130,7 @@ ion-icon { pointer-events: none; }
 address { font-style: normal; }
 
 html {
-  font-family: var(--ff-nunito_sans);
+  font-family: var(--ff-Poppins);
   font-size: 10px;
   scroll-behavior: smooth;
 }
@@ -176,7 +176,7 @@ body {
 
 .h1 {
   color: var(--white);
-  font-family: var(--ff-bangers);
+  font-family: var(--ff-Anton);
   font-size: var(--fs-1);
   font-weight: var(--fw-400);
   letter-spacing: 1px;
@@ -206,7 +206,7 @@ body {
 
 .section-title .span {
   display: inline;
-  color: var(--portland-orange);
+  color: var(--Azul-Escuro);
 }
 
 .img-holder {
@@ -239,13 +239,13 @@ body {
 .has-scrollbar::-webkit-scrollbar { height: 10px; }
 
 .has-scrollbar::-webkit-scrollbar-track {
-  outline: 2px solid var(--portland-orange);
+  outline: 2px solid var(--Azul-Escuro);
   border-radius: var(--radius-10);
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
   border-radius: var(--radius-10);
-  background-color: var(--portland-orange);
+  background-color: var(--Azul-Escuro);
   border: 2px solid var(--white);
 }
 
@@ -302,7 +302,7 @@ body {
 .nav-toggle-btn.active .close-icon { display: block; }
 
 .logo {
-  font-family: var(--ff-carter_one);
+  font-family: var(--ff-Anton2);
   font-size: 3rem;
 }
 
@@ -321,7 +321,7 @@ body {
   position: absolute;
   top: -8px;
   right: -10px;
-  background-color: var(--portland-orange);
+  background-color: var(--Azul-Escuro);
   color: var(--white);
   font-size: var(--fs-8);
   min-width: 18px;
@@ -396,7 +396,7 @@ body {
 
 .hero .btn { margin-inline: auto; }
 
-.hero .btn:is(:hover, :focus) { background-color: var(--portland-orange); }
+.hero .btn:is(:hover, :focus) { background-color: var(--Azul-Escuro); }
 
 
 
@@ -418,7 +418,7 @@ body {
   transition: var(--transition-1);
 }
 
-.category-card .card-title:is(:hover, :focus) { color: var(--portland-orange); }
+.category-card .card-title:is(:hover, :focus) { color: var(--Azul-Escuro); }
 
 
 
@@ -446,7 +446,7 @@ body {
   margin-block: 5px 24px;
 }
 
-.offer-card .btn { background-color: var(--portland-orange); }
+.offer-card .btn { background-color: var(--Azul-Escuro); }
 
 .offer-card .btn:is(:hover, :focus) { background-color: var(--black); }
 
@@ -493,10 +493,10 @@ body {
 
 .product-card .card-title { transition: var(--transition-1); }
 
-.product-card .card-title:is(:hover, :focus) { color: var(--portland-orange); }
+.product-card .card-title:is(:hover, :focus) { color: var(--Azul-Escuro); }
 
 .product-card .card-price {
-  color: var(--portland-orange);
+  color: var(--Azul-Escuro);
   font-size: var(--fs-4);
   font-weight: var(--fw-700);
 }
@@ -610,7 +610,7 @@ body {
 
 .footer-text .link {
   display: inline-block;
-  color: var(--portland-orange);
+  color: var(--Azul-Escuro);
 }
 
 .contact-item {
@@ -625,7 +625,7 @@ body {
 .contact-item ion-icon {
   flex-shrink: 0;
   font-size: 22px;
-  color: var(--portland-orange);
+  color: var(--Azul-Escuro);
 }
 
 .social-list {
@@ -642,7 +642,7 @@ body {
 }
 
 .social-link:is(:hover, :focus) {
-  background-color: var(--portland-orange);
+  background-color: var(--Azul-Escuro);
   color: var(--white);
 }
 
@@ -658,7 +658,7 @@ body {
   transition: var(--transition-1);
 }
 
-.footer-link:is(:hover, :focus) { color: var(--portland-orange); }
+.footer-link:is(:hover, :focus) { color: var(--Azul-Escuro); }
 
 .footer-bottom { padding-block: 20px; }
 
@@ -682,7 +682,7 @@ body {
   position: fixed;
   bottom: 10px;
   right: 20px;
-  background-color: var(--portland-orange);
+  background-color: var(--Azul-Escuro);
   color: var(--white);
   font-size: 25px;
   padding: 10px;
@@ -799,8 +799,8 @@ body {
   }
 
   .product-card .card-action-btn:is(:hover, :focus) {
-    background-color: var(--portland-orange);
-    border-color: var(--portland-orange);
+    background-color: var(--Azul-Escuro);
+    border-color: var(--Azul-Escuro);
     color: var(--white);
   }
 
@@ -1002,7 +1002,7 @@ body {
     transition: var(--transition-1);
   }
 
-  .header.active .navbar-link:is(:hover, :focus) { color: var(--portland-orange); }
+  .header.active .navbar-link:is(:hover, :focus) { color: var(--Azul-Escuro); }
 
 
 
