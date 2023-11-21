@@ -20,18 +20,18 @@
    * colors
    */
 
-  --bright-yellow-crayola: hsl(36, 94%, 57%);
-  --portland-orange: hsl(15, 84%, 57%);
+  --bright-yellow-crayola: #83c5be;
+  --portland-orange: #55828b;
   --battleship-gray: hsl(0, 0%, 53%);
   --silver-chalice: hsl(0, 0%, 70%);
   --spanish-gray: hsl(0, 0%, 60%);
   --sonic-silver: hsl(208, 7%, 46%);
   --raisin-black: hsl(228, 6%, 17%);
   --eerie-black: hsl(210, 3%, 13%);
-  --bittersweet: hsl(9, 96%, 69%);
+  --bittersweet: #e29578;
   --light-gray: hsl(0, 0%, 80%);
   --platinum: hsl(0, 0%, 91%);
-  --amber: hsl(45, 100%, 51%);
+  --amber: #ffddd2;
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
   --onyx: hsl(220, 2%, 24%);
@@ -40,9 +40,9 @@
    * typography
    */
 
-  --ff-bangers: 'Bangers', cursive;
-  --ff-carter_one: 'Carter One', cursive;
-  --ff-nunito_sans: 'Nunito Sans', sans-serif;
+  --ff-bangers: 'Anton', sans-serif;
+  --ff-carter_one: 'Anton', sans-serif;
+  --ff-nunito_sans: 'Poppins', sans-serif;
 
   --fs-1: 6.5rem;
   --fs-2: 3.2rem;
@@ -535,11 +535,9 @@ body {
   #CTA
 \*-----------------------------------*/
 
-.cta { background-position: 75%; }
 
-.cta-banner { display: none; }
+.cta-content { padding-block: 80px var(--section-padding);}
 
-.cta-content { padding-block: 80px var(--section-padding); }
 
 .cta .section-title {
   text-align: left;
