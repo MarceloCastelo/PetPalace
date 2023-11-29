@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/carrinho.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+
+      <h1>Subtotal <R120></R120>,00</h1>
+
+      <a href="../index.html" title="Sign In" type="submit" class="sign-in_btn">
+        <span>Fechar pedido (1 item)</span>
+      </a>
+
+      <div class="separator">
+        <hr class="line" />
+      </div>
+
+      <div class="master-container">
+        <div class="card cart">
+          <label class="title">Your cart</label>
+          <div class="products">
+            <div class="product">
+              <img src="../assets/images/brinquedo-cachorro.jpg" width="100%" height="60">
+              <div>
+                <span>Brinquedo de cachorro</span>
+              </div>
+              <div class="quantity">
+                <button>
+                  <svg fill="none" viewBox="0 0 24 24" height="14" width="14" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" stroke="#47484b" d="M20 12L4 12"></path>
+                  </svg>
+                </button>
+                <label>2</label>
+                <button>
+                  <svg fill="none" viewBox="0 0 24 24" height="14" width="14" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" stroke="#47484b" d="M12 4V20M20 12H4"></path>
+                  </svg>
+                </button>
+              </div>
+              <label class="price small">$24,00</label>
+            </div>
+          </div>
+        </div>
+      
+        <div class="card coupons">
+          <label class="title">Adicione cupons</label>
+          <form class="form">
+              <input type="text" placeholder="Adicione o seu cupom aqui" class="input_field">
+              <button>Adicionar</button>
+          </form>
+        </div>
+      
+        <div class="card checkout">
+          <label class="title">Checkout</label>
+          <div class="details">
+            <span>Valor total:</span>
+            <span>R$23,00</span>
+            <span>Desconto aplicado</span>
+            <span>R$4,00</span>
+            <span>Valor do frete</span>
+            <span>R$0,00</span>
+          </div>
+          <div class="checkout--footer">
+            <label class="price"><sup>R$</sup>20</label>
+            <button class="checkout-btn">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
