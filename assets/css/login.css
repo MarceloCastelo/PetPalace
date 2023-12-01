@@ -72,7 +72,9 @@
 body {
   display: flex;
   justify-content: center;
-  margin: 15vh;
+  align-items: center; /* Alinhamento vertical central */
+  height: 100vh; /* Definir altura para ocupar toda a altura visível */
+  margin: 0;
   background-image: url("../images/backgroundDog.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,8 +85,7 @@ body {
   height: fit-content;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: center; /* Alinhamento horizontal central */
   gap: 15px;
   padding: 50px 40px 20px 40px;
   background-color: #ffffff;
@@ -246,4 +247,101 @@ body {
 
 ion-icon {
   font-size: 24px;
+}
+
+
+/* Tablet Layout */
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: none; /* Remover a imagem de fundo em resoluções de tablet */
+    background-color: #83c5be; /* Adicionar cor de fundo para tablets */
+  }
+
+  .form_container {
+    padding: 30px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 12px;
+  }
+
+  .input_label {
+    font-size: 0.65rem;
+  }
+
+  .input_field {
+    height: 35px;
+    font-size: 14px;
+  }
+
+  .sign-in_btn {
+    height: 35px;
+    font-size: 14px;
+  }
+
+  .sign-in_ggl,
+  .sign-in_apl {
+    height: 35px;
+    font-size: 14px;
+  }
+
+  .note {
+    font-size: 0.9rem;
+  }
+
+  ion-icon {
+    font-size: 20px;
+  }
+}
+
+/* Mobile Layout */
+@media only screen and (max-width: 480px) {
+  body {
+    background-image: none; /* Remover a imagem de fundo em resoluções de celular */
+    background-color: #83c5be; 
+  }
+
+  .form_container {
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .subtitle {
+    font-size: 10px;
+  }
+
+  .input_label {
+    font-size: 0.6rem;
+  }
+
+  .input_field {
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .sign-in_btn {
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .sign-in_ggl,
+  .sign-in_apl {
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .note {
+    font-size: 0.8rem;
+  }
+
+  ion-icon {
+    font-size: 18px;
+  }
 }

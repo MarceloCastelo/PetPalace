@@ -72,7 +72,9 @@
 body {
   display: flex;
   justify-content: center;
-  margin: 15vh;
+  align-items: center; /* Alinhamento vertical central */
+  height: 100vh; /* Definir altura para ocupar toda a altura visível */
+  margin: 0;
   background-image: url("../images/backgroundDog.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,8 +85,7 @@ body {
   height: fit-content;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: center; /* Alinhamento horizontal central */
   gap: 15px;
   padding: 50px 40px 20px 40px;
   background-color: #ffffff;
@@ -92,7 +93,6 @@ body {
   border-radius: var(--radius-10);
   font-family: var(--ff-Poppins);
 }
-
 .logo_container h1 {
   font-size: 36px;
   margin: 0 auto;
@@ -240,4 +240,66 @@ body {
 
 ion-icon {
   font-size: 24px;
+}
+
+
+
+/* Adicione as seguintes media queries ao seu CSS existente */
+
+/* Tablet Layout */
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 10vh;
+  }
+
+  .form_container {
+    padding: 30px;
+  }
+}
+
+/* Mobile Layout */
+@media only screen and (max-width: 480px) {
+  body {
+    margin: 5vh;
+  }
+
+  .form_container {
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 12px;
+  }
+
+  .input_label {
+    font-size: 0.65rem;
+  }
+
+  .input_field {
+    height: 35px;
+    font-size: 14px;
+  }
+
+  .sign-in_btn {
+    height: 35px;
+    font-size: 14px;
+  }
+
+  .sign-in_ggl,
+  .sign-in_apl {
+    height: 35px;
+    font-size: 14px;
+  }
+
+  .note {
+    font-size: 0.9rem;
+  }
+
+  ion-icon {
+    font-size: 20px;
+  }
 }
