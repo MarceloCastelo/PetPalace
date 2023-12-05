@@ -1,0 +1,59 @@
+body {
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh; /* 50% da altura da viewport */
+    background-color: #001f3f; /* Azul escuro */
+    z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo principal */
+}
+
+h1{
+    color: white;
+}
+
+
+.conteudoPrincipal {
+    text-align: left;
+    max-width: 800px;
+    padding: 20px;
+    margin-left: auto; /* Adicionado para alinhar à direita */
+    margin-right: auto; /* Adicionado para alinhar à direita */
+}
+
+.conteudoPrincipal img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.conteudo{
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5em; /* Reduzindo o tamanho do título para celular */
+    }
+
+    p {
+        font-size: 1em; /* Aumentando o tamanho do parágrafo para celular */
+    }
+
+    body::before {
+        height: 45vh; /* Reduzindo ainda mais a altura do pseudo-elemento para celular */
+    }
+}
