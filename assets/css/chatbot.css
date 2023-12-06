@@ -4,6 +4,7 @@
   bottom: 20px;
   right: 20px;
   z-index: 1000;
+ /* Ajusta a largura máxima para ocupar 90% da largura disponível */
 }
 
 .chat-header {
@@ -77,4 +78,46 @@
   width: 20px;
   height: 20px;
   margin-right: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .chat-container {
+    width: 90%; 
+    max-width: none; 
+    bottom: 2px; 
+    right: 50%; 
+    transform: translateX(50%); 
+  }
+
+  .chat-box {
+    width: 100%;
+    max-width: none; 
+    height: 70vh; 
+    max-height: 80vh;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+
+  .chat-log {
+    height: 100%; 
+    max-height: 80%; 
+    overflow-y: scroll;
+    margin-bottom: 10px;
+  }
+
+  #user-input {
+    width: calc(100% - 80px); 
+    border-radius: 7px;
+    margin-right: 10px;
+  }
+
+  .chat-container button {
+    width: 25%; 
+    height: 35px;
+    position: relative;
+    margin: 12px;
+    left: auto;
+  }
 }
