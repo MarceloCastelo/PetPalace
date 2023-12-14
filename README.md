@@ -13,17 +13,12 @@ O site é todo feito em HTML, JS e CSS. Sem muitos detalhes.
 para fazer o site funcionar, basta cloná-lo na sua máquina!
 
 ## 📦 Tecnologias usadas:
-
-Coloque aqui as ferramentas que você usou para criar seu projeto, exemplo:
-
 * ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 * ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 * ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 
 ## 👷 Autores
-
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início, colaboradores.
 
 * **Marcelo Castelo Branco** - *Desenvolvedor* - [marcelo_Castelo](https://github.com/MarceloCastelo)
 * **Guilherme Azevedo** - *Desenvolvedor* - [marcelo_Castelo](https://github.com/Guilhermeazevedo1)
@@ -33,6 +28,6 @@ Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início, co
 
 ## 💡 Expressões de gratidão
 
-* Um agradecimento publicamente.
+* Obrigado pelo interesse pelo PetPalace!
 * Para suporte, mande um email para marcelo.cbo2000@gmail.com.
 * [Meu linkedin](https://www.linkedin.com/in/marcelocastelo/)
