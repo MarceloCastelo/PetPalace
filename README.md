@@ -1,4 +1,4 @@
-!<img src="/assets/images/backgroundDog">
+![Imagem_Cachorro](./assets/images/backgroundDog.jpg)
 
 # PetPalace - O seu novo E-commerce de PetShop!
 
@@ -35,4 +35,4 @@ Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início, co
 
 * Um agradecimento publicamente.
 * Para suporte, mande um email para marcelo.cbo2000@gmail.com.
-* Meu LinkedIn! [Meu linkedin](https://www.linkedin.com/in/marcelocastelo/)
+* [Meu linkedin](https://www.linkedin.com/in/marcelocastelo/)
